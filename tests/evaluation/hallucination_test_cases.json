@@ -1,0 +1,27 @@
+[
+  {
+    "id": "HAL-001",
+    "question": "Who is the CEO of Northstar Analytics?",
+    "should_answer": false
+  },
+  {
+    "id": "HAL-002",
+    "question": "What is the company's maternity leave policy?",
+    "should_answer": false
+  },
+  {
+    "id": "HAL-003",
+    "question": "What is the employee bonus percentage?",
+    "should_answer": false
+  },
+  {
+    "id": "HAL-004",
+    "question": "What health insurance company does Northstar use?",
+    "should_answer": false
+  },
+  {
+    "id": "HAL-005",
+    "question": "What is Northstar's annual revenue?",
+    "should_answer": false
+  }
+]

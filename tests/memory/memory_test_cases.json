@@ -1,0 +1,59 @@
+[
+  {
+    "id": "MEM-001",
+    "description": "Hotel reimbursement follow-up",
+    "turns": [
+      {
+        "question": "What is the hotel reimbursement cap?",
+        "expected_keywords": [
+          "SGD 280"
+        ]
+      },
+      {
+        "question": "When can it be exceeded?",
+        "expected_keywords": [
+          "manager approval"
+        ],
+        "expected_retrieval_terms": [
+          "hotel",
+          "reimbursement"
+        ]
+      },
+      {
+        "question": "Does my manager need to approve that?",
+        "expected_keywords": [
+          "manager approval"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "MEM-002",
+    "description": "Learning budget pronoun resolution",
+    "turns": [
+      {
+        "question": "What is the learning budget?",
+        "expected_keywords": [
+          "SGD 1,200"
+        ]
+      },
+      {
+        "question": "Who qualifies for it?",
+        "expected_keywords": [
+          "permanent employees",
+          "six months"
+        ],
+        "expected_retrieval_terms": [
+          "learning",
+          "budget"
+        ]
+      },
+      {
+        "question": "Do I need approval?",
+        "expected_keywords": [
+          "manager approval"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+1.
+python -m venv myenv (or .venv)
+ myenv\Scripts\activate 
+
+2. Install all the dependencies:
+python -m pip install --upgrade pip (To Upgrade pip)
+pip install -r requirements.txt
+
+
+--------------------------------------------------------------------------------
+3.A.
+Ctrl + Shift + P
+→ Python: Select Interpreter
+→ Select myenv
+
+
+  OR
+
+3.B.Verify the Jupyter kernel
+
+In VS Code:
+
+    Press Ctrl + Shift + P
+    Select Python: Select Interpreter
+    Choose your project's myenv (or .venv)
+    Then click the kernel name in the top-right of the notebook and select the same .venv
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4.
+Create .gitignore:
+.env
+myenv/
+__pycache__/
+vector_store/
+
+====================================================================================================
+5. Test every stage separately:
+
+Step 1: Test PDF loading
+ python loader.py
+
+Step 2: Test chunking
+ python splitter.py
+
+Step 3: Create embeddings and FAISS
+ python ingest.py
+
+====================================================================================================
+6. Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+Alternative:
+
+```bash
+python -m streamlit run app.py
+```
+
+====================================================================================================

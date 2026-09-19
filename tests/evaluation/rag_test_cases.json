@@ -1,0 +1,57 @@
+[
+  {
+    "id": "RAG-001",
+    "category": "factual",
+    "question": "How many annual leave days do full-time employees receive?",
+    "expected_keywords": [
+      "20 days"
+    ],
+    "expected_source": "employee_handbook.md",
+    "should_answer": true
+  },
+  {
+    "id": "RAG-002",
+    "category": "factual",
+    "question": "What is the standard hotel reimbursement cap?",
+    "expected_keywords": [
+      "SGD 280",
+      "per night"
+    ],
+    "expected_source": "travel_policy.md",
+    "should_answer": true
+  },
+  {
+    "id": "RAG-003",
+    "category": "semantic",
+    "question": "If production is unavailable for most users and there is no workaround, how quickly will Premium Support respond?",
+    "expected_keywords": [
+      "30 minutes"
+    ],
+    "expected_source": "product_support.md",
+    "should_answer": true
+  },
+  {
+    "id": "RAG-004",
+    "category": "security",
+    "question": "Can developers copy real production customer data to their laptops for testing?",
+    "expected_keywords": [
+      "must not",
+      "synthetic",
+      "anonymized"
+    ],
+    "expected_source": "it_security_policy.md",
+    "should_answer": true
+  },
+  {
+    "id": "RAG-005",
+    "category": "multi_fact",
+    "question": "Explain annual leave entitlement, carry-forward and expiry.",
+    "expected_keywords": [
+      "20 days",
+      "5",
+      "31 March"
+    ],
+    "expected_source": "employee_handbook.md",
+    "should_answer": true
+  }
+]

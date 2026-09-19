@@ -1,0 +1,22 @@
+[
+  {
+    "id": "RET-001",
+    "query": "annual leave",
+    "expected_source": "employee_handbook.md"
+  },
+  {
+    "id": "RET-002",
+    "query": "SGD 280",
+    "expected_source": "travel_policy.md"
+  },
+  {
+    "id": "RET-003",
+    "query": "production outage no workaround",
+    "expected_source": "product_support.md"
+  },
+  {
+    "id": "RET-004",
+    "query": "customer data developer laptop",
+    "expected_source": "it_security_policy.md"
+  }
+]

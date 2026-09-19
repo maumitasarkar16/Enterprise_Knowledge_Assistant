@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ROUTE-001",
+    "question": "Hello, I am Maumita",
+    "expected_mode": "GENERAL"
+  },
+  {
+    "id": "ROUTE-002",
+    "question": "What is the capital of India?",
+    "expected_mode": "GENERAL"
+  },
+  {
+    "id": "ROUTE-003",
+    "question": "Explain Python decorators",
+    "expected_mode": "GENERAL"
+  },
+  {
+    "id": "ROUTE-004",
+    "question": "What is our hotel reimbursement cap?",
+    "expected_mode": "ENTERPRISE"
+  },
+  {
+    "id": "ROUTE-005",
+    "question": "How many annual leave days do employees receive?",
+    "expected_mode": "ENTERPRISE"
+  },
+  {
+    "id": "ROUTE-006",
+    "question": "What is our maternity leave policy?",
+    "expected_mode": "ENTERPRISE"
+  },
+  {
+    "id": "ROUTE-007",
+    "question": "Who is our CEO?",
+    "expected_mode": "ENTERPRISE"
+  }
+]
