@@ -46,7 +46,29 @@ Step 3: Create embeddings and FAISS
  python ingest.py
 
 ====================================================================================================
-6. Run the Streamlit application:
+
+6. GitHub things >>
+
+URL: https://github.com/maumitasarkar16/Enterprise_Knowledge_Assistant
+
+Force GitHub to distinguish accounts by username:
+git config --global credential.https://github.com.useHttpPath true
+
+====================================================================================================
+
+7. Run all automated tests:
+
+pytest -v
+
+Memory specifically: python -m pytest tests/memory/test_memory.py -v
+Router specifically: python -m pytest tests/unit/test_router_behavior.py -v
+With coverage: python -m pytest --cov=src --cov-report=term-missing -v
+And the full live evaluation: python -m pytest tests/evaluation/run_evaluation.py
+
+====================================================================================================
+
+
+8. Run the Streamlit application:
 
 ```bash
 streamlit run app.py
